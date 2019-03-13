@@ -1,0 +1,70 @@
+2019-03-05 12:45:21.590  INFO --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 6.0.14.Final
+2019-03-05 12:45:26.884  INFO --- [           main] c.e.d.DemoApplication                    : Info : number is 55
+2019-03-05 12:45:26.884  WARN --- [           main] c.e.d.DemoApplication                    : Warning : number is 55
+2019-03-05 12:45:26.884 ERROR --- [           main] c.e.d.DemoApplication                    : Error : number is 55
+2019-03-05 12:45:26.884 FATAL --- [           main] c.e.d.DemoApplication                    : Fatal : number is 55
+2019-03-05 12:45:26.885  INFO --- [           main] c.e.d.DemoApplication                    : Info : You chose a number < 100 
+2019-03-05 12:45:26.885  WARN --- [           main] c.e.d.DemoApplication                    : Warning : You chose a number < 100 
+2019-03-05 12:45:26.885 ERROR --- [           main] c.e.d.DemoApplication                    : Error : You chose a number < 100 
+2019-03-05 12:45:26.885 FATAL --- [           main] c.e.d.DemoApplication                    : Fatal : You chose a number < 100 
+2019-03-05 12:45:26.885  INFO --- [           main] c.e.d.DemoApplication                    : Info : Your number has the digit 5
+2019-03-05 12:45:26.885  WARN --- [           main] c.e.d.DemoApplication                    : Warning : Your number has the digit 5
+2019-03-05 12:45:26.885 ERROR --- [           main] c.e.d.DemoApplication                    : Error : Your number has the digit 5
+2019-03-05 12:45:26.885 FATAL --- [           main] c.e.d.DemoApplication                    : Fatal : Your number has the digit 5
+2019-03-05 12:46:05.920  INFO --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 6.0.14.Final
+2019-03-05 12:46:11.060  INFO --- [           main] c.e.d.DemoApplication                    : Info : number is 55
+2019-03-05 12:46:11.060  WARN --- [           main] c.e.d.DemoApplication                    : Warning : number is 55
+2019-03-05 12:46:11.060 ERROR --- [           main] c.e.d.DemoApplication                    : Error : number is 55
+2019-03-05 12:46:11.060 FATAL --- [           main] c.e.d.DemoApplication                    : Fatal : number is 55
+2019-03-05 12:46:11.060  INFO --- [           main] c.e.d.DemoApplication                    : Info : You chose a number < 100 
+2019-03-05 12:46:11.060  WARN --- [           main] c.e.d.DemoApplication                    : Warning : You chose a number < 100 
+2019-03-05 12:46:11.060 ERROR --- [           main] c.e.d.DemoApplication                    : Error : You chose a number < 100 
+2019-03-05 12:46:11.061 FATAL --- [           main] c.e.d.DemoApplication                    : Fatal : You chose a number < 100 
+2019-03-05 12:46:11.061  INFO --- [           main] c.e.d.DemoApplication                    : Info : Your number has the digit 5
+2019-03-05 12:46:11.061  WARN --- [           main] c.e.d.DemoApplication                    : Warning : Your number has the digit 5
+2019-03-05 12:46:11.061 ERROR --- [           main] c.e.d.DemoApplication                    : Error : Your number has the digit 5
+2019-03-05 12:46:11.061 FATAL --- [           main] c.e.d.DemoApplication                    : Fatal : Your number has the digit 5
+2019-03-05 12:48:46.566 DEBUG --- [kground-preinit] o.j.logging                              : Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2019-03-05 12:48:46.569  INFO --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 6.0.14.Final
+2019-03-05 12:48:46.580 DEBUG --- [kground-preinit] o.h.v.i.e.r.TraversableResolvers         : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-05 12:48:46.584 DEBUG --- [kground-preinit] o.h.v.i.x.c.ValidationXmlParser          : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-03-05 12:48:46.586 DEBUG --- [kground-preinit] o.h.v.i.x.c.ResourceLoaderHelper         : Trying to load META-INF/validation.xml via TCCL
+2019-03-05 12:48:46.586 DEBUG --- [kground-preinit] o.h.v.i.x.c.ResourceLoaderHelper         : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-03-05 12:48:46.586 DEBUG --- [kground-preinit] o.h.v.i.x.c.ValidationXmlParser          : No META-INF/validation.xml found. Using annotation based configuration only.
+2019-03-05 12:48:46.765 DEBUG --- [kground-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-03-05 12:48:46.770 DEBUG --- [kground-preinit] o.h.v.i.e.ValidatorFactoryImpl           : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-03-05 12:48:46.770 DEBUG --- [kground-preinit] o.h.v.i.e.ValidatorFactoryImpl           : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-03-05 12:48:46.770 DEBUG --- [kground-preinit] o.h.v.i.e.ValidatorFactoryImpl           : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-03-05 12:48:46.770 DEBUG --- [kground-preinit] o.h.v.i.e.ValidatorFactoryImpl           : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-03-05 12:48:46.770 DEBUG --- [kground-preinit] o.h.v.i.e.ValidatorFactoryImpl           : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-03-05 12:48:48.383 DEBUG --- [           main] o.h.v.i.e.r.TraversableResolvers         : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-05 12:48:48.383 DEBUG --- [           main] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-03-05 12:48:48.385 DEBUG --- [           main] o.h.v.i.e.r.TraversableResolvers         : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-05 12:48:48.386 DEBUG --- [           main] o.h.v.i.e.ConfigurationImpl              : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-03-05 12:48:48.386 DEBUG --- [           main] o.h.v.i.e.ConfigurationImpl              : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-03-05 12:48:48.387 DEBUG --- [           main] o.h.v.i.e.ConfigurationImpl              : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-03-05 12:48:48.388 DEBUG --- [           main] o.h.v.i.x.c.ValidationXmlParser          : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-03-05 12:48:48.388 DEBUG --- [           main] o.h.v.i.x.c.ResourceLoaderHelper         : Trying to load META-INF/validation.xml via user class loader
+2019-03-05 12:48:48.388 DEBUG --- [           main] o.h.v.i.x.c.ResourceLoaderHelper         : Trying to load META-INF/validation.xml via TCCL
+2019-03-05 12:48:48.389 DEBUG --- [           main] o.h.v.i.x.c.ResourceLoaderHelper         : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-03-05 12:48:48.389 DEBUG --- [           main] o.h.v.i.x.c.ValidationXmlParser          : No META-INF/validation.xml found. Using annotation based configuration only.
+2019-03-05 12:48:48.393 DEBUG --- [           main] o.h.v.i.e.ValidatorFactoryImpl           : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-03-05 12:48:48.393 DEBUG --- [           main] o.h.v.i.e.ValidatorFactoryImpl           : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-03-05 12:48:48.393 DEBUG --- [           main] o.h.v.i.e.ValidatorFactoryImpl           : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-03-05 12:48:48.393 DEBUG --- [           main] o.h.v.i.e.ValidatorFactoryImpl           : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-03-05 12:48:48.393 DEBUG --- [           main] o.h.v.i.e.ValidatorFactoryImpl           : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-03-05 12:48:51.683  INFO --- [           main] c.e.d.DemoApplication                    : Info : number is 55
+2019-03-05 12:48:51.683  WARN --- [           main] c.e.d.DemoApplication                    : Warning : number is 55
+2019-03-05 12:48:51.683 DEBUG --- [           main] c.e.d.DemoApplication                    : Debug : number is 55
+2019-03-05 12:48:51.683 ERROR --- [           main] c.e.d.DemoApplication                    : Error : number is 55
+2019-03-05 12:48:51.683 FATAL --- [           main] c.e.d.DemoApplication                    : Fatal : number is 55
+2019-03-05 12:48:51.683  INFO --- [           main] c.e.d.DemoApplication                    : Info : You chose a number < 100 
+2019-03-05 12:48:51.683  WARN --- [           main] c.e.d.DemoApplication                    : Warning : You chose a number < 100 
+2019-03-05 12:48:51.683 DEBUG --- [           main] c.e.d.DemoApplication                    : Debug : You chose a number < 100 
+2019-03-05 12:48:51.683 ERROR --- [           main] c.e.d.DemoApplication                    : Error : You chose a number < 100 
+2019-03-05 12:48:51.684 FATAL --- [           main] c.e.d.DemoApplication                    : Fatal : You chose a number < 100 
+2019-03-05 12:48:51.684  INFO --- [           main] c.e.d.DemoApplication                    : Info : Your number has the digit 5
+2019-03-05 12:48:51.684  WARN --- [           main] c.e.d.DemoApplication                    : Warning : Your number has the digit 5
+2019-03-05 12:48:51.684 DEBUG --- [           main] c.e.d.DemoApplication                    : Debug : Your number has the digit 5
+2019-03-05 12:48:51.684 ERROR --- [           main] c.e.d.DemoApplication                    : Error : Your number has the digit 5
+2019-03-05 12:48:51.684 FATAL --- [           main] c.e.d.DemoApplication                    : Fatal : Your number has the digit 5
